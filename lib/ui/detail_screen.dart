@@ -20,7 +20,7 @@ class _DetailScreenState extends State<DetailScreen> {
   _DetailScreenState() {
     progressStream = StreamController<double>();
   }
-// detail 
+// detail
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -90,7 +90,7 @@ class _DetailScreenState extends State<DetailScreen> {
                               if (await canLaunch(widget.company.website)) {
                                 await launch(widget.company.website);
                               } else {
-                                throw 'Could not launch ${widget.company.website}';
+                                throw 'Tidak dapat launch ${widget.company.website}';
                               }
                             },
                             child: Text('Visit Website'),
