@@ -20,7 +20,7 @@ class _DetailScreenState extends State<DetailScreen> {
   _DetailScreenState() {
     progressStream = StreamController<double>();
   }
-
+// detail 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
